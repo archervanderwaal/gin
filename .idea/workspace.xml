@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f8393b2-ae1b-4e50-827e-d49d2413465d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/.idea/gin-0.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/examples/example.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/examples/example_basic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/gin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/recovery.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gin-0.1/validation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../go-all/data_structure/algorithm/309-best-time-to-buy-and-sell-stock-with-cooldown.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../go-all/data_structure/algorithm/target_sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../go-all/data_structure/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../go-all/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../go-all/test_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/go-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/go-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/libraries/Go_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/libraries/Go_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day1/ChannelAndGoRunTimeDemo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day1/HelloWorld.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day1/IOTest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day1/TestIf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day1/type_length.go" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="813662161">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
