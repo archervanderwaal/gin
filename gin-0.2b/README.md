@@ -1,17 +1,18 @@
-#Gin Web Framework
+# Gin Web Framework
 
 [![GoDoc](https://godoc.org/github.com/gin-gonic/gin?status.png)](https://godoc.org/github.com/gin-gonic/gin)
 [![Build Status](https://travis-ci.org/gin-gonic/gin.svg)](https://travis-ci.org/gin-gonic/gin)
 
 Gin is a web framework written in Golang. It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity, you will love Gin.  
+
 ![Gin console logger](http://gin-gonic.github.io/gin/other/console.png)
 
-##Gin is new, will it be supported?
+## Gin is new, will it be supported?
 
 Yes, Gin is an internal project of [my](https://github.com/manucorporat) upcoming startup. We developed it and we are going to continue using and improve it.
 
 
-##Roadmap for v0.2
+## Roadmap for v0.2
 - [x] Performance improments, reduce allocation and garbage collection overhead
 - [x] Fix bugs
 - [ ] Ask our designer for a cool logo
@@ -40,7 +41,7 @@ import "github.com/gin-gonic/gin"
 ```
 
 
-##API Examples
+## API Examples
 
 #### Create most basic PING/PONG HTTP endpoint
 ```go 
@@ -248,7 +249,7 @@ func main() {
 ```
 
 
-####HTML rendering
+#### HTML rendering
 
 Using LoadHTMLTemplates()
 
