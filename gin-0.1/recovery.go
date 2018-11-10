@@ -1,5 +1,8 @@
 package gin
 
+// gin 框架源码阅读笔记
+// date: 2018/11/10
+// author: archer vanderwaal 一北@archer.vanderwaal@gmail.com
 import (
 	"bytes"
 	"fmt"
@@ -77,10 +80,12 @@ func function(pc uintptr) []byte {
 	return name
 }
 
+// Recovery返回一个中间件处理函数, 该中间件处理函数用于从panic中恢复, 响应http status500
 // Recovery returns a middleware that recovers from any panics and writes a 500 if there was one.
 // While Martini is in development mode, Recovery will also output the panic as HTML.
 func Recovery() HandlerFunc {
 	return func(c *Context) {
+		// 捕获panic
 		defer func() {
 			if len(c.Errors) > 0 {
 				log.Println(c.Errors)
@@ -88,10 +93,11 @@ func Recovery() HandlerFunc {
 			if err := recover(); err != nil {
 				stack := stack(3)
 				log.Printf("PANIC: %s\n%s", err, stack)
+				// 响应500
 				c.Writer.WriteHeader(http.StatusInternalServerError)
 			}
 		}()
-
+		// 调用其他处理函数处理
 		c.Next()
 	}
 }

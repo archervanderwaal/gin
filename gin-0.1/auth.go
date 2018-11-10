@@ -1,5 +1,8 @@
 package gin
 
+// gin 框架源码阅读笔记
+// date: 2018/11/10
+// author: archer vanderwaal 一北@archer.vanderwaal@gmail.com
 import (
 	"crypto/subtle"
 	"encoding/base64"
@@ -25,6 +28,7 @@ func (a Pairs) Len() int           { return len(a) }
 func (a Pairs) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func (a Pairs) Less(i, j int) bool { return a[i].Code < a[j].Code }
 
+// 处理访问凭证, 对访问凭证进行编码, 返回pairs
 func processCredentials(accounts Accounts) (Pairs, error) {
 	if len(accounts) == 0 {
 		return nil, errors.New("Empty list of authorized credentials.")
@@ -35,21 +39,26 @@ func processCredentials(accounts Accounts) (Pairs, error) {
 			return nil, errors.New("User or password is empty")
 		}
 		base := account.User + ":" + account.Password
+		// base64编码
 		code := "Basic " + base64.StdEncoding.EncodeToString([]byte(base))
 		pairs = append(pairs, BasicAuthPair{code, account.User})
 	}
 	// We have to sort the credentials in order to use bsearch later.
+	// 排序方便后面二分查找
 	sort.Sort(pairs)
 	return pairs, nil
 }
 
+// 查询凭证
 func searchCredential(pairs Pairs, auth string) string {
 	if len(auth) == 0 {
 		return ""
 	}
+	// 在有效访问凭证中查询授权用户
 	// Search user in the slice of allowed credentials
 	r := sort.Search(len(pairs), func(i int) bool { return pairs[i].Code >= auth })
 
+	// 判断是否有效
 	if r < len(pairs) && subtle.ConstantTimeCompare([]byte(pairs[r].Code), []byte(auth)) == 1 {
 		// user is allowed, set UserId to key "user" in this context, the userId can be read later using
 		// c.Get("user"

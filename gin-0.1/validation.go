@@ -6,17 +6,22 @@ import (
 	"strings"
 )
 
+// 验证
 func Validate(c *Context, obj interface{}) error {
 
 	var err error
+	// 获取接收json对象的类型
 	typ := reflect.TypeOf(obj)
+	// 获取接收json对象的值
 	val := reflect.ValueOf(obj)
 
+	// 如果是ptr, 则获取实际的类型
 	if typ.Kind() == reflect.Ptr {
 		typ = typ.Elem()
 		val = val.Elem()
 	}
 
+	// 迭代字段
 	for i := 0; i < typ.NumField(); i++ {
 		field := typ.Field(i)
 		fieldValue := val.Field(i).Interface()
@@ -29,6 +34,7 @@ func Validate(c *Context, obj interface{}) error {
 		}
 
 		if strings.Index(field.Tag.Get("binding"), "required") > -1 {
+			// 必选项
 			if reflect.DeepEqual(zero, fieldValue) {
 				name := field.Name
 				if j := field.Tag.Get("json"); j != "" {
